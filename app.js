@@ -43,12 +43,9 @@ $(function() {
 
     });
 
-
-    // Menu Nav toggle
-    $("#nav_toggle").on("click", function(event) {
-
-        event.preventDefault();
-        $(this).toggleClass("active");
+    var $hamburger = $(".hamburger");
+    $hamburger.on("click", function(e) {
+        $hamburger.toggleClass("is-active");
         $("#nav").toggleClass("active");
 
     });
@@ -77,3 +74,4 @@ $(function() {
     })
 
 });
+

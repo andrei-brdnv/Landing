@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"
           integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe"
           crossorigin="anonymous">
+    <link href="hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Landing</title>
 </head>
 <body>
 
     <header class="header" id="header">
-        <div class="container">
+        <div class="container" id="top-container">
+            <div class="hamburger hamburger--minus">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </div>
             <div class="header__inner">
                 <div class="logo" data-scroll="#intro">Landing</div>
                 <nav class="nav" id="nav">
@@ -24,9 +30,9 @@
                     <a class="nav__link" href="#" data-scroll="#work">Work</a>
                     <a class="nav__link" href="#" data-scroll="#footer">Contact</a>
                 </nav>
-                <button class="nav-toggle" id="nav_toggle" type="button">
+                <!--<button class="nav-toggle" id="nav_toggle" type="button">
                     <span class="nav-toggle__item">Menu</span>
-                </button>
+                </button>-->
             </div>
         </div>
     </header>
